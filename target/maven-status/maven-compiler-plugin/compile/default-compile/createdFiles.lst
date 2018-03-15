@@ -1,0 +1,4 @@
+br/gov/sp/fatec/model/Veiculo.class
+br/gov/sp/fatec/model/Pessoa.class
+br/gov/sp/fatec/App.class
+br/gov/sp/fatec/repository/PessoaRepository.class
