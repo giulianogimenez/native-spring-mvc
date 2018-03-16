@@ -18,6 +18,9 @@ public class Veiculo {
 	@Column
 	private String modelo;
 
+	@Column(unique = true)
+	private String placa;
+
 	@ManyToOne(targetEntity = Pessoa.class)
 	@JoinColumn(name="pessoa_id")
 	private Pessoa pessoa;

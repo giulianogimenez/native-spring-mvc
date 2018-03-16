@@ -5,10 +5,10 @@
   <groupId>br.gov.sp.fatec</groupId>
   <artifactId>atividade01</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
   <!-- Shared version number properties -->
   <properties>
-    <org.springframework.version>4.1.4.RELEASE</org.springframework.version>
+    <org.springframework.version>5.0.4.RELEASE</org.springframework.version>
   </properties>
 
   <dependencies>
@@ -18,7 +18,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
+
     <!-- Spring -->
     <dependency>
       <groupId>org.springframework</groupId>
