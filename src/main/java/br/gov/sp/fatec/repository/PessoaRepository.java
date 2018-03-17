@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
 
+    Pessoa findByNomeIgnoreCase(String nome);
     Pessoa findByVeiculosPlaca(String placa);
 
     @Query("select p from Pessoa p inner join Veiculo v on p.id = v.pessoa.id where v.marca like %?1% and v.modelo like %?2%")
