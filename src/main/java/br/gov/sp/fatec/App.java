@@ -2,10 +2,8 @@ package br.gov.sp.fatec;
 
 import br.gov.sp.fatec.model.Pessoa;
 import br.gov.sp.fatec.model.Veiculo;
-import br.gov.sp.fatec.repository.PessoaRepository;
 import br.gov.sp.fatec.services.PessoaService;
 import br.gov.sp.fatec.services.VeiculoService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
